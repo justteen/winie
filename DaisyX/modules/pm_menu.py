@@ -44,9 +44,7 @@ def help_markup(modules):
     return markup
 
 
-STICKERS = (
-    "CAACAgUAAxkBAALqjmIssvex9AcLHPNSzjd3-pM3y5RdAAIDBQACVhlpVUDCXtImmD5_IwQ",
-)
+STICKERS = ("CAACAgUAAxkBAALqjmIssvex9AcLHPNSzjd3-pM3y5RdAAIDBQACVhlpVUDCXtImmD5_IwQ",)
 
 
 @register(cmds="start", no_args=True, only_groups=True)
@@ -71,26 +69,22 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(InlineKeyboardButton(strings["btn_help"], callback_data="get_help"))
     buttons.add(
         InlineKeyboardButton(strings["btn_lang"], callback_data="lang_btn"),
-        InlineKeyboardButton(
-            strings["btn_source"], url="https://github.com/justteen/"
-        ),
+        InlineKeyboardButton(strings["btn_source"], url="https://github.com/justteen/"),
     )
     buttons.add(
         InlineKeyboardButton(strings["btn_channel"], url="https://t.me/supbuz"),
-        InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/buzzsupport"
-        ),
+        InlineKeyboardButton(strings["btn_group"], url="https://t.me/buzzsupport"),
     )
     buttons.add(
         InlineKeyboardButton(
             "👸🏼 Add Winie to your group",
-            url=f"https://telegram.me/winieebot?startgroup=true"
+            url=f"https://telegram.me/winieebot?startgroup=true",
         ),
     )
     buttons.add(
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/psycho_syridwan"),
-            InlineKeyboardButton("MOD•Nur", url=f"https://t.me/xnafrlzy"),
-            InlineKeyboardButton("MOD•Winie", url=f"https://t.me/CitraAyuWinieF"),
+        InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/psycho_syridwan"),
+        InlineKeyboardButton("MOD•Nur", url=f"https://t.me/xnafrlzy"),
+        InlineKeyboardButton("MOD•Winie", url=f"https://t.me/CitraAyuWinieF"),
     )
     # Handle error when user click the button 2 or more times simultaneously
     with suppress(MessageNotModified):
