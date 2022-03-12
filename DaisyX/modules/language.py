@@ -76,11 +76,7 @@ async def select_lang_keyboard(message, strings, edit=False):
             )
         )
 
-    markup.add(
-        InlineKeyboardButton(
-            strings["crowdin_btn"], url="https://t.me/supbuz"
-        )
-    )
+    markup.add(InlineKeyboardButton(strings["crowdin_btn"], url="https://t.me/supbuz"))
     if edit:
         markup.add(InlineKeyboardButton(strings["back"], callback_data="go_to_start"))
     with suppress(MessageNotModified):
