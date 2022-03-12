@@ -2,7 +2,6 @@
 
 > ⭐️ Thanks to everyone who starred WINIE, That is the greatest pleasure we have !
 
-### https://daisyproject.studio
 ## Avaiilable a latest version as  [@WINIE](https://t.me/winieebot) on Telegram 
 
 
