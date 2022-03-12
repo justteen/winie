@@ -8,7 +8,7 @@
     "telegram-winie",
   ],
   "repository": "https://github.com/justteen/winie",
-  "website": "https://github.com/justteen/winie",
+  "website": "https://github.com/justteen/winie/",
   "success_url": "t.me/learnaboutbotbuzz",
   "buildpacks": [
    {
