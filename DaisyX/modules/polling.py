@@ -16,7 +16,6 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-from pymongo import MongoClient
 from telethon import *
 from telethon.tl import *
 
@@ -24,6 +23,7 @@ from DaisyX import BOT_ID
 from DaisyX.config import get_str_key
 from DaisyX.services.events import register
 from DaisyX.services.telethon import tbot
+from pymongo import MongoClient
 
 MONGO_DB_URI = get_str_key("MONGO_URI", required=True)
 client = MongoClient()
