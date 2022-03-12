@@ -6,9 +6,10 @@
     "winie",
     "plugin",
     "telegram-winie",
+    "fuck-TG"
   ],
   "repository": "https://github.com/justteen/winie",
-  "website": "https://github.com/justteen/winie/",
+  "website": "daisyproject.studio",
   "success_url": "t.me/learnaboutbotbuzz",
   "buildpacks": [
    {
